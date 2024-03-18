@@ -143,15 +143,10 @@ export default {
   text-overflow: ellipsis;
 }
 
-// 当 .line1 被悬停时，它内部的 <a> 和 <a> 内的 <span> 的颜色都会变成 #2a60c9。!important 用来确保这个规则能覆盖其他可能存在的颜色设置
+/*当 .line1 被悬停时，它内部的 <a> 和 <a> 内的 <span> 的颜色都会变成 #2a60c9。!important 用来确保这个规则能覆盖其他可能存在的颜色设置 */
 .line1:hover a,
 .line1:hover a span {
   color: #2a60c9 !important;
 }
-
-.line3:hover {
-  color: #2a60c9 !important;
-}
-
 
 </style>
